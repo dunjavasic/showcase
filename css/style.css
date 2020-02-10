@@ -55,8 +55,7 @@ canvas {
       text-align: right; }
       @media (max-width: 769px) {
         .main-box__menu--links ul {
-          flex-direction: column;
-          display: none; } }
+          flex-direction: column; } }
       .main-box__menu--links ul li {
         margin-left: 50px;
         font-family: 'Gentium Basic', serif;
@@ -70,10 +69,10 @@ canvas {
 
 .hamburger {
   display: none; }
-  @media (max-width: 769px) {
+  /* @media (max-width: 769px) {
     .hamburger {
       display: flex;
-      padding-right: 50px; } }
+      padding-right: 50px; } } */
 
 .active-menu {
   display: flex !important;
